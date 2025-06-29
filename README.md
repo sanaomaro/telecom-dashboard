@@ -1,9 +1,9 @@
-📡 Telecom Network Performance Dashboard
+**📡 Telecom Network Performance Dashboard**
+
 Interactive, modular Streamlit application for visualizing, analyzing, and modeling cellular network performance data.
 
-<!-- Add your image link here if hosted -->
 
-✨ Features
+**✨ Features**
 ✅ Clean, modular Python code (organized by app/ folder)
 ✅ Interactive Streamlit dashboard for real-time filtering and analysis
 ✅ Data visualization with Matplotlib, Seaborn, and Plotly
@@ -12,7 +12,7 @@ Interactive, modular Streamlit application for visualizing, analyzing, and model
 ✅ Random Forest SNR prediction model
 ✅ Supports CSV-based telecom datasets
 
-📊 Example Outputs
+**📊 Example Outputs**
 Visuals from the working dashboard:
 
 📈 Quick Network Summary: Signal strength, critical area counts, worst tower detection
@@ -32,9 +32,12 @@ Visuals from the working dashboard:
 📅 SNR Trends: Daily signal quality trends over time
 
 See screenshots below:
-Add your image links or paste screenshots in your GitHub issues/PR if needed.
+![image](https://github.com/user-attachments/assets/47b61302-4724-4e2c-ac39-95d15039207d)
 
-📂 Project Structure
+![image](https://github.com/user-attachments/assets/101389e4-edec-4e5a-b8a5-47f0fbe4a0b0)
+
+
+**📂 Project Structure**
 bash
 Copy
 Edit
@@ -49,62 +52,52 @@ telecom-dashboard/
 ├── requirements.txt           # Python dependencies
 ├── README.md
 ├── .gitignore
-🚀 Quickstart Instructions
-1️⃣ Install dependencies
+
+**🚀 Quickstart Instructions**
+**1️⃣ Install dependencies**
 bash
 Copy
 Edit
 pip install -r requirements.txt
-2️⃣ Place your dataset
+**2️⃣ Place your dataset**
 Place your CSV file inside the data/ folder. Example:
 
 bash
 Copy
 Edit
-data/train_telecom.csv
-3️⃣ Run the Streamlit dashboard
+data/train_telecom.csv**
+3️⃣ Run the Streamlit dashboard**
 bash
 Copy
 Edit
 streamlit run app/dashboard_main.py
 Visit http://localhost:8501 to view your dashboard.
 
-📦 Requirements
+**📦 Requirements**
 Python 3.8+
-
 Streamlit
-
 Pandas, Seaborn, Plotly
-
 Scikit-learn
-
 Matplotlib
-
 Install using the included requirements.txt.
 
-🎯 Use Cases
+**🎯 Use Cases**
 ✔ Telecom performance monitoring
 ✔ Signal strength investigation
 ✔ Outlier and anomaly detection
 ✔ RF propagation modeling
 ✔ Predictive analytics for SNR
 
-🌐 Deployment
+**🌐 Deployment**
 This dashboard is designed for both local use and cloud platforms like Streamlit Cloud. For public deployment:
-
 Push your project to GitHub
-
 Remove large/private datasets from .gitignore to keep code clean
-
 Connect your repo to Streamlit Cloud
-
 Need deployment help? Open an issue!
 
-📌 Notes
+**📌 Notes**
 Sample data excluded for privacy—replace with your real dataset
-
 Modular code enables easy extension (add new models, charts, etc.)
-
 Tested on Windows, Python 3.11
 
 🤝 Contributing

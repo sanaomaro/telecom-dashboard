@@ -4,6 +4,7 @@ Interactive, modular Streamlit application for visualizing, analyzing, and model
 
 
 **✨ Features**
+
 ✅ Clean, modular Python code (organized by app/ folder)
 ✅ Interactive Streamlit dashboard for real-time filtering and analysis
 ✅ Data visualization with Matplotlib, Seaborn, and Plotly

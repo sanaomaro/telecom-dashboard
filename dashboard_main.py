@@ -7,7 +7,7 @@ from app.modeling import detect_outliers, regression_analysis, predict_snr
 st.set_page_config(page_title="Cellular Network Dashboard", layout="wide")
 
 st.title("📡 Cellular Network Performance Dashboard")
-file_path = "C:/Users/SANA/Downloads/train_telecom.csv"  # Adjust this path
+file_path = "data/train_telecom.csv" # Adjust this path
 
 df = load_data(file_path)
 if df is not None:
